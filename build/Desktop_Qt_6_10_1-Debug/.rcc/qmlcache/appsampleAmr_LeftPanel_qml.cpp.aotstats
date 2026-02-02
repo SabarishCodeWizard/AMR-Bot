@@ -8,234 +8,250 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 127,
+                            "durationMicroseconds": 42,
                             "functionName": "color",
-                            "line": 7,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 11,
+                            "message": "Cannot load property panelBg from (component in /home/texrobot/sampleAmr/LeftPanel.qml)::theme with type QVariant."
                         },
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 11,
                             "functionName": "color",
-                            "line": 9,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 13,
+                            "message": "Cannot load property borderColor from (component in /home/texrobot/sampleAmr/LeftPanel.qml)::theme with type QVariant."
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 282,
+                            "durationMicroseconds": 88,
                             "functionName": "fill",
-                            "line": 16,
+                            "line": 17,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 20,
-                            "durationMicroseconds": 83,
+                            "column": 46,
+                            "durationMicroseconds": 39,
                             "functionName": "color",
-                            "line": 24,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 26,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 65,
+                            "column": 67,
+                            "durationMicroseconds": 21,
                             "functionName": "color",
-                            "line": 26,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 27,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 120,
-                            "functionName": "color",
-                            "line": 32,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 32,
-                            "functionName": "centerIn",
+                            "durationMicroseconds": 186,
+                            "functionName": "model",
                             "line": 30,
-                            "message": ""
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 30,
-                            "durationMicroseconds": 107,
-                            "functionName": "family",
+                            "column": 34,
+                            "durationMicroseconds": 194,
+                            "functionName": "text",
                             "line": 33,
-                            "message": "Cannot access value for name appWindow"
+                            "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 61,
-                            "functionName": "color",
-                            "line": 55,
-                            "message": "Cannot load property down from (component in /home/texrobot/sampleAmr/LeftPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 33,
-                            "functionName": "text",
-                            "line": 59,
-                            "message": "Cannot load property text from (component in /home/texrobot/sampleAmr/LeftPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 46,
-                            "durationMicroseconds": 42,
-                            "functionName": "horizontalAlignment",
-                            "line": 62,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 44,
-                            "durationMicroseconds": 27,
-                            "functionName": "verticalAlignment",
-                            "line": 63,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
+                            "column": 52,
                             "durationMicroseconds": 24,
-                            "functionName": "centerIn",
-                            "line": 89,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "model",
-                            "line": 99,
-                            "message": "Could not find property \"model\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 72,
                             "functionName": "color",
-                            "line": 102,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 39,
-                            "durationMicroseconds": 63,
-                            "functionName": "color",
-                            "line": 103,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 31,
-                            "functionName": "text",
-                            "line": 108,
-                            "message": "Cannot load property displayText from (component in /home/texrobot/sampleAmr/LeftPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 110,
-                            "functionName": "color",
-                            "line": 109,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 44,
-                            "durationMicroseconds": 34,
-                            "functionName": "verticalAlignment",
-                            "line": 110,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 113,
-                            "message": "Could not find property \"y\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 114,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 45,
-                            "durationMicroseconds": 25,
-                            "functionName": "implicitHeight",
-                            "line": 118,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 57,
-                            "functionName": "model",
-                            "line": 119,
-                            "message": "Cannot load property popup from QQuickItem::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 121,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 39,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 122,
-                            "message": "Could not find property \"text\"."
+                            "line": 33,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 123,
-                            "message": "Could not find property \"text\"."
+                            "durationMicroseconds": 23,
+                            "functionName": "color",
+                            "line": 35,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 64,
-                            "durationMicroseconds": 183,
+                            "column": 48,
+                            "durationMicroseconds": 20,
                             "functionName": "color",
-                            "line": 124,
-                            "message": "Cannot access value for name hovered"
+                            "line": 46,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 20,
+                            "functionName": "color",
+                            "line": 47,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 60,
+                            "functionName": "width",
+                            "line": 61,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 21,
+                            "functionName": "color",
+                            "line": 63,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 18,
+                            "functionName": "color",
+                            "line": 65,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 40,
+                            "functionName": "fill",
+                            "line": 68,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 24,
                             "functionName": "color",
-                            "line": 128,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 73,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 40,
+                            "functionName": "centerIn",
+                            "line": 74,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 43,
-                            "durationMicroseconds": 56,
+                            "column": 42,
+                            "durationMicroseconds": 160,
+                            "functionName": "text",
+                            "line": 79,
+                            "message": "Cannot access value for name name"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 27,
                             "functionName": "color",
-                            "line": 129,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 79,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 101,
+                            "durationMicroseconds": 129,
+                            "functionName": "width",
+                            "line": 82,
+                            "message": "Cannot access value for name battery"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 139,
+                            "durationMicroseconds": 67,
+                            "functionName": "height",
+                            "line": 82,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 161,
+                            "durationMicroseconds": 176,
+                            "functionName": "color",
+                            "line": 82,
+                            "message": "Cannot access value for name battery"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 170,
+                            "functionName": "text",
+                            "line": 83,
+                            "message": "Cannot access value for name battery"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 68,
+                            "durationMicroseconds": 31,
+                            "functionName": "color",
+                            "line": 83,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 164,
+                            "functionName": "text",
+                            "line": 87,
+                            "message": "Cannot access value for name status"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 53,
+                            "durationMicroseconds": 213,
+                            "functionName": "color",
+                            "line": 87,
+                            "message": "Cannot access value for name status"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 23,
+                            "functionName": "color",
+                            "line": 97,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 20,
+                            "functionName": "color",
+                            "line": 98,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 128,
+                            "functionName": "model",
+                            "line": 101,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 189,
+                            "functionName": "text",
+                            "line": 104,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 25,
+                            "functionName": "color",
+                            "line": 104,
+                            "message": "Cannot access value for name theme"
                         }
                     ],
                     "filePath": "/home/texrobot/sampleAmr/LeftPanel.qml"

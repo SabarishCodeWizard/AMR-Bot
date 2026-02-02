@@ -6,43 +6,35 @@
                 {
                     "entries": [
                         {
-                            "codegenResult": 2,
-                            "column": 5,
-                            "durationMicroseconds": 0,
-                            "functionName": "showKeypad",
-                            "line": 33,
-                            "message": "Functions without type annotations won't be compiled"
-                        },
-                        {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 76,
+                            "durationMicroseconds": 62,
                             "functionName": "fill",
-                            "line": 46,
+                            "line": 34,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 38,
-                            "durationMicroseconds": 55,
-                            "functionName": "currentCoordinateSystem",
-                            "line": 54,
+                            "column": 20,
+                            "durationMicroseconds": 36,
+                            "functionName": "theme",
+                            "line": 40,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 63,
-                            "functionName": "preferredWidth",
-                            "line": 52,
+                            "column": 20,
+                            "durationMicroseconds": 27,
+                            "functionName": "theme",
+                            "line": 49,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 50,
-                            "functionName": "preferredWidth",
-                            "line": 60,
+                            "column": 20,
+                            "durationMicroseconds": 26,
+                            "functionName": "theme",
+                            "line": 56,
                             "message": ""
                         }
                     ],

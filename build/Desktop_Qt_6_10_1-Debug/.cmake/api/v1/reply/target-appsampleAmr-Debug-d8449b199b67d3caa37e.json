@@ -96,13 +96,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 39,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 34,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -495,6 +495,30 @@
 				"parent" : 66
 			},
 			{
+				"command" : 25,
+				"file" : 12,
+				"line" : 3591,
+				"parent" : 66
+			},
+			{
+				"command" : 25,
+				"file" : 12,
+				"line" : 3784,
+				"parent" : 66
+			},
+			{
+				"command" : 25,
+				"file" : 12,
+				"line" : 3591,
+				"parent" : 66
+			},
+			{
+				"command" : 25,
+				"file" : 12,
+				"line" : 3784,
+				"parent" : 66
+			},
+			{
 				"command" : 29,
 				"file" : 12,
 				"line" : 3876,
@@ -504,19 +528,19 @@
 				"command" : 28,
 				"file" : 0,
 				"line" : 405,
-				"parent" : 75
+				"parent" : 79
 			},
 			{
 				"command" : 27,
 				"file" : 0,
 				"line" : 2623,
-				"parent" : 76
+				"parent" : 80
 			},
 			{
 				"command" : 25,
 				"file" : 0,
 				"line" : 2163,
-				"parent" : 77
+				"parent" : 81
 			},
 			{
 				"command" : 32,
@@ -528,7 +552,7 @@
 				"command" : 25,
 				"file" : 0,
 				"line" : 2288,
-				"parent" : 79
+				"parent" : 83
 			}
 		]
 	},
@@ -643,7 +667,9 @@
 				7,
 				9,
 				11,
-				12
+				13,
+				15,
+				16
 			]
 		}
 	],
@@ -772,16 +798,18 @@
 				7,
 				9,
 				11,
-				12,
 				13,
 				15,
 				16,
-				27,
-				28,
-				29,
-				30,
-				31,
-				32
+				17,
+				19,
+				20,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38
 			]
 		},
 		{
@@ -791,30 +819,34 @@
 				1,
 				5,
 				8,
-				10
+				10,
+				12,
+				14
 			]
 		},
 		{
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				14
+				18
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				17,
-				18,
-				19,
-				20,
 				21,
 				22,
 				23,
 				24,
 				25,
-				26
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32
 			]
 		}
 	],
@@ -897,26 +929,50 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 75,
+			"path" : "VirtualKeypad.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 76,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "CenterPanel.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 78,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 80,
+			"backtrace" : 84,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qmake_sampleAmr.qrc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 80,
+			"backtrace" : 84,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1-Debug/sampleAmr/qmldir",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 80,
+			"backtrace" : 84,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1-Debug/.qt/rcc/appsampleAmr_raw_qml_0.qrc",
 			"sourceGroupIndex" : 0
@@ -967,6 +1023,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

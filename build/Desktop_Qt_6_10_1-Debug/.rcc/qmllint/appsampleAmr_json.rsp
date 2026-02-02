@@ -11,5 +11,6 @@
 /home/texrobot/sampleAmr/LeftPanel.qml
 /home/texrobot/sampleAmr/RightPanel.qml
 /home/texrobot/sampleAmr/VirtualKeypad.qml
+/home/texrobot/sampleAmr/CenterPanel.qml
 --json
 /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/appsampleAmr_qmllint.json

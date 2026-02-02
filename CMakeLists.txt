@@ -19,6 +19,7 @@ qt_add_qml_module(appsampleAmr
         QML_FILES LeftPanel.qml
         QML_FILES RightPanel.qml
         QML_FILES VirtualKeypad.qml
+        QML_FILES CenterPanel.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

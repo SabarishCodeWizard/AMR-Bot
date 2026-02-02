@@ -8,466 +8,226 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 48,
                             "functionName": "color",
-                            "line": 7,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 11,
+                            "message": "Cannot load property panelBg from (component in /home/texrobot/sampleAmr/RightPanel.qml)::theme with type QVariant."
                         },
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 13,
                             "functionName": "color",
-                            "line": 9,
-                            "message": "Cannot access value for name appWindow"
+                            "line": 13,
+                            "message": "Cannot load property borderColor from (component in /home/texrobot/sampleAmr/RightPanel.qml)::theme with type QVariant."
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 62,
+                            "durationMicroseconds": 72,
                             "functionName": "fill",
-                            "line": 16,
+                            "line": 17,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 20,
-                            "durationMicroseconds": 128,
+                            "column": 51,
+                            "durationMicroseconds": 35,
+                            "functionName": "color",
+                            "line": 26,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 21,
                             "functionName": "color",
                             "line": 27,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 31,
-                            "durationMicroseconds": 43,
-                            "functionName": "alignment",
-                            "line": 22,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 110,
-                            "functionName": "family",
-                            "line": 24,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 0,
-                            "functionName": "position",
-                            "line": 36,
-                            "message": "Could not find property \"position\"."
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 42,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 30,
-                            "functionName": "text",
-                            "line": 44,
-                            "message": "Cannot load property text from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 233,
+                            "durationMicroseconds": 22,
                             "functionName": "color",
-                            "line": 45,
-                            "message": "Cannot load property checked from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
+                            "line": 32,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 42,
-                            "durationMicroseconds": 35,
-                            "functionName": "horizontalAlignment",
+                            "column": 35,
+                            "durationMicroseconds": 49,
+                            "functionName": "fill",
+                            "line": 35,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 27,
+                            "functionName": "color",
+                            "line": 36,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 25,
+                            "functionName": "color",
+                            "line": 37,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 21,
+                            "functionName": "color",
                             "line": 46,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 115,
+                            "durationMicroseconds": 63,
+                            "functionName": "horizontalAlignment",
+                            "line": 47,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 26,
+                            "column": 153,
+                            "durationMicroseconds": 45,
                             "functionName": "verticalAlignment",
                             "line": 47,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 99,
-                            "functionName": "color",
-                            "line": 50,
-                            "message": "Cannot load property checked from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 54,
-                            "message": "Could not find property \"width\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 26,
-                            "functionName": "text",
-                            "line": 56,
-                            "message": "Cannot load property text from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 234,
+                            "column": 47,
+                            "durationMicroseconds": 24,
                             "functionName": "color",
                             "line": 57,
-                            "message": "Cannot load property checked from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
+                            "message": "Cannot access value for name theme"
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 42,
-                            "durationMicroseconds": 38,
-                            "functionName": "horizontalAlignment",
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 20,
+                            "functionName": "color",
                             "line": 58,
-                            "message": ""
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 20,
+                            "functionName": "color",
+                            "line": 63,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 20,
+                            "functionName": "color",
+                            "line": 65,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 26,
-                            "functionName": "verticalAlignment",
-                            "line": 59,
+                            "column": 39,
+                            "durationMicroseconds": 44,
+                            "functionName": "centerIn",
+                            "line": 68,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 24,
+                            "functionName": "color",
+                            "line": 70,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 101,
+                            "durationMicroseconds": 74,
+                            "functionName": "horizontalCenter",
+                            "line": 70,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 25,
+                            "functionName": "color",
+                            "line": 73,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 51,
+                            "durationMicroseconds": 59,
+                            "functionName": "text",
+                            "line": 74,
+                            "message": "Cannot load property text from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 71,
+                            "durationMicroseconds": 25,
+                            "functionName": "color",
+                            "line": 74,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 94,
-                            "functionName": "color",
-                            "line": 62,
-                            "message": "Cannot load property checked from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 61,
-                            "functionName": "color",
-                            "line": 70,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 14,
-                            "functionName": "currentIndex",
-                            "line": 76,
-                            "message": "Cannot retrieve a non-object type by ID: modeBar"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 31,
-                            "durationMicroseconds": 28,
-                            "functionName": "fill",
-                            "line": 74,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
                             "durationMicroseconds": 23,
-                            "functionName": "centerIn",
-                            "line": 83,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 20,
-                            "functionName": "centerIn",
-                            "line": 93,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 72,
-                            "durationMicroseconds": 27,
-                            "functionName": "text",
-                            "line": 113,
-                            "message": "Cannot load property text from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 58,
-                            "durationMicroseconds": 21,
-                            "functionName": "centerIn",
-                            "line": 113,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 44,
-                            "durationMicroseconds": 31,
                             "functionName": "color",
-                            "line": 121,
-                            "message": "Cannot load property down from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
+                            "line": 86,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 43,
-                            "durationMicroseconds": 21,
-                            "functionName": "text",
-                            "line": 126,
-                            "message": "Cannot load property text from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 58,
-                            "durationMicroseconds": 29,
-                            "functionName": "horizontalAlignment",
-                            "line": 128,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 56,
-                            "durationMicroseconds": 26,
-                            "functionName": "verticalAlignment",
-                            "line": 129,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 54,
-                            "durationMicroseconds": 25,
-                            "functionName": "horizontalAlignment",
-                            "line": 155,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 52,
-                            "durationMicroseconds": 24,
-                            "functionName": "verticalAlignment",
-                            "line": 156,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
-                            "durationMicroseconds": 22,
-                            "functionName": "centerIn",
-                            "line": 169,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 20,
-                            "functionName": "centerIn",
-                            "line": 179,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 26,
-                            "functionName": "alignment",
-                            "line": 190,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 64,
-                            "durationMicroseconds": 103,
+                            "column": 67,
+                            "durationMicroseconds": 19,
                             "functionName": "color",
-                            "line": 198,
-                            "message": "Cannot load property down from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
+                            "line": 87,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 118,
-                            "durationMicroseconds": 21,
-                            "functionName": "centerIn",
-                            "line": 199,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 64,
-                            "durationMicroseconds": 99,
-                            "functionName": "color",
-                            "line": 204,
-                            "message": "Cannot load property down from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 118,
-                            "durationMicroseconds": 21,
-                            "functionName": "centerIn",
-                            "line": 205,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 64,
-                            "durationMicroseconds": 92,
-                            "functionName": "color",
-                            "line": 215,
-                            "message": "Cannot load property down from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 118,
-                            "durationMicroseconds": 24,
-                            "functionName": "centerIn",
-                            "line": 216,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 64,
-                            "durationMicroseconds": 87,
-                            "functionName": "color",
-                            "line": 221,
-                            "message": "Cannot load property down from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 118,
-                            "durationMicroseconds": 22,
-                            "functionName": "centerIn",
-                            "line": 222,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 20,
-                            "durationMicroseconds": 59,
-                            "functionName": "color",
-                            "line": 236,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 20,
-                            "durationMicroseconds": 111,
-                            "functionName": "color",
-                            "line": 244,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 31,
-                            "durationMicroseconds": 31,
-                            "functionName": "alignment",
-                            "line": 245,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 0,
-                            "functionName": "horizontalAlignment",
-                            "line": 261,
-                            "message": "Could not find property \"horizontalAlignment\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 269,
-                            "message": "Could not find property \"color\"."
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 28,
                             "durationMicroseconds": 65,
-                            "functionName": "color",
-                            "line": 271,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 35,
-                            "durationMicroseconds": 124,
-                            "functionName": "color",
-                            "line": 272,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 100,
-                            "functionName": "onClicked",
-                            "line": 278,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 33,
-                            "functionName": "fill",
-                            "line": 277,
+                            "functionName": "width",
+                            "line": 99,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 114,
-                            "functionName": "color",
-                            "line": 288,
-                            "message": "Cannot access value for name appWindow"
+                            "column": 34,
+                            "durationMicroseconds": 155,
+                            "functionName": "text",
+                            "line": 101,
+                            "message": "Cannot access value for name time"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 102,
-                            "functionName": "color",
-                            "line": 293,
-                            "message": "Cannot access value for name appWindow"
+                            "column": 34,
+                            "durationMicroseconds": 130,
+                            "functionName": "text",
+                            "line": 102,
+                            "message": "Cannot access value for name msg"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 42,
-                            "durationMicroseconds": 98,
+                            "column": 46,
+                            "durationMicroseconds": 196,
                             "functionName": "color",
-                            "line": 298,
-                            "message": "Cannot access value for name appWindow"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 50,
-                            "functionName": "color",
-                            "line": 307,
-                            "message": "Cannot load property down from (component in /home/texrobot/sampleAmr/RightPanel.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 38,
-                            "durationMicroseconds": 36,
-                            "functionName": "horizontalAlignment",
-                            "line": 317,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 26,
-                            "functionName": "verticalAlignment",
-                            "line": 318,
-                            "message": ""
+                            "line": 102,
+                            "message": "Cannot access value for name type"
                         }
                     ],
                     "filePath": "/home/texrobot/sampleAmr/RightPanel.qml"

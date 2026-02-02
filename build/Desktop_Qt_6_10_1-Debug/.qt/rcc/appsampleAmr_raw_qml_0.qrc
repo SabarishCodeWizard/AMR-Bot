@@ -4,6 +4,7 @@
     <file alias="LeftPanel.qml">/home/texrobot/sampleAmr/LeftPanel.qml</file>
     <file alias="RightPanel.qml">/home/texrobot/sampleAmr/RightPanel.qml</file>
     <file alias="VirtualKeypad.qml">/home/texrobot/sampleAmr/VirtualKeypad.qml</file>
+    <file alias="CenterPanel.qml">/home/texrobot/sampleAmr/CenterPanel.qml</file>
   </qresource>
 </RCC>
 

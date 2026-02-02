@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/
 #############################################
 # Order-only phony target for appsampleAmr
 
-build cmake_object_order_depends_target_appsampleAmr: phony || .qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp .qt/rcc/qrc_qmake_sampleAmr.cpp .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_Main_qml.cpp .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_qmlcache_loader.cpp appsampleAmr_autogen appsampleAmr_autogen/mocs_compilation.cpp appsampleAmr_autogen/timestamp appsampleAmr_autogen_timestamp_deps appsampleAmr_copy_qml appsampleAmr_copy_res appsampleAmr_qmlimportscan appsampleamr_qmltyperegistrations.cpp generate_qmlls_build_ini_file meta_types/appsampleAmr_json_file_list.txt meta_types/appsampleAmr_json_file_list.txt.timestamp meta_types/qt6appsampleamr_metatypes.json meta_types/qt6appsampleamr_metatypes.json.gen sampleAmr/appsampleAmr.qmltypes
+build cmake_object_order_depends_target_appsampleAmr: phony || .qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp .qt/rcc/qrc_qmake_sampleAmr.cpp .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_Main_qml.cpp .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_qmlcache_loader.cpp appsampleAmr_autogen appsampleAmr_autogen/mocs_compilation.cpp appsampleAmr_autogen/timestamp appsampleAmr_autogen_timestamp_deps appsampleAmr_copy_qml appsampleAmr_copy_res appsampleAmr_qmlimportscan appsampleamr_qmltyperegistrations.cpp generate_qmlls_build_ini_file meta_types/appsampleAmr_json_file_list.txt meta_types/appsampleAmr_json_file_list.txt.timestamp meta_types/qt6appsampleamr_metatypes.json meta_types/qt6appsampleamr_metatypes.json.gen sampleAmr/appsampleAmr.qmltypes
 
 build CMakeFiles/appsampleAmr.dir/appsampleAmr_autogen/mocs_compilation.cpp.o: CXX_COMPILER__appsampleAmr_unscanned_Debug /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/appsampleAmr_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appsampleAmr
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
@@ -121,6 +121,14 @@ build CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/ap
   OBJECT_DIR = CMakeFiles/appsampleAmr.dir
   OBJECT_FILE_DIR = CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache
 
+build CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.o: CXX_COMPILER__appsampleAmr_unscanned_Debug /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp || cmake_object_order_depends_target_appsampleAmr
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/appsampleAmr_autogen/include -I/home/texrobot/sampleAmr -isystem /home/texrobot/Qt/6.10.1/gcc_64/include/QtQml -isystem /home/texrobot/Qt/6.10.1/gcc_64/include -isystem /home/texrobot/Qt/6.10.1/gcc_64/include/QtCore -isystem /home/texrobot/Qt/6.10.1/gcc_64/mkspecs/linux-g++ -isystem /home/texrobot/Qt/6.10.1/gcc_64/include/QtQmlIntegration -isystem /home/texrobot/Qt/6.10.1/gcc_64/include/QtNetwork -isystem /home/texrobot/Qt/6.10.1/gcc_64/include/QtQuick -isystem /home/texrobot/Qt/6.10.1/gcc_64/include/QtGui -isystem /home/texrobot/Qt/6.10.1/gcc_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles/appsampleAmr.dir
+  OBJECT_FILE_DIR = CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache
+
 build CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp.o: CXX_COMPILER__appsampleAmr_unscanned_Debug /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp || cmake_object_order_depends_target_appsampleAmr
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp.o.d
@@ -137,7 +145,7 @@ build CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_apps
 #############################################
 # Link the executable appsampleAmr
 
-build appsampleAmr: CXX_EXECUTABLE_LINKER__appsampleAmr_Debug CMakeFiles/appsampleAmr.dir/appsampleAmr_autogen/mocs_compilation.cpp.o CMakeFiles/appsampleAmr.dir/main.cpp.o CMakeFiles/appsampleAmr.dir/appsampleamr_qmltyperegistrations.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_qmake_sampleAmr.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_qmlcache_loader.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_Main_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp.o | /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Quick.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6OpenGL.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Gui.so.6.10.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Qml.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Network.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Core.so.6.10.1 || appsampleAmr_autogen appsampleAmr_autogen_timestamp_deps appsampleAmr_copy_qml appsampleAmr_copy_res appsampleAmr_qmlimportscan generate_qmlls_build_ini_file
+build appsampleAmr: CXX_EXECUTABLE_LINKER__appsampleAmr_Debug CMakeFiles/appsampleAmr.dir/appsampleAmr_autogen/mocs_compilation.cpp.o CMakeFiles/appsampleAmr.dir/main.cpp.o CMakeFiles/appsampleAmr.dir/appsampleamr_qmltyperegistrations.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_qmake_sampleAmr.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_qmlcache_loader.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_Main_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.o CMakeFiles/appsampleAmr.dir/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp.o | /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Quick.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6OpenGL.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Gui.so.6.10.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Qml.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Network.so.6.10.1 /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Core.so.6.10.1 || appsampleAmr_autogen appsampleAmr_autogen_timestamp_deps appsampleAmr_copy_qml appsampleAmr_copy_res appsampleAmr_qmlimportscan generate_qmlls_build_ini_file
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/texrobot/Qt/6.10.1/gcc_64/lib:  /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Quick.so.6.10.1  /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6OpenGL.so.6.10.1  /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Gui.so.6.10.1  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Qml.so.6.10.1  /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Network.so.6.10.1  /home/texrobot/Qt/6.10.1/gcc_64/lib/libQt6Core.so.6.10.1  -Wl,-rpath-link,/home/texrobot/Qt/6.10.1/gcc_64/lib
   OBJECT_DIR = CMakeFiles/appsampleAmr.dir
@@ -216,13 +224,13 @@ build generate_qmlls_build_ini_file: phony CMakeFiles/generate_qmlls_build_ini_f
 #############################################
 # Utility command for module_appsampleAmr_aotstats_target
 
-build module_appsampleAmr_aotstats_target: phony CMakeFiles/module_appsampleAmr_aotstats_target .rcc/qmlcache/module_appsampleAmr.aotstats .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_Main_qml.cpp .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats appsampleamr_qmltyperegistrations.cpp sampleAmr/appsampleAmr.qmltypes appsampleAmr_qmltyperegistration
+build module_appsampleAmr_aotstats_target: phony CMakeFiles/module_appsampleAmr_aotstats_target .rcc/qmlcache/module_appsampleAmr.aotstats .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_Main_qml.cpp .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats appsampleamr_qmltyperegistrations.cpp sampleAmr/appsampleAmr.qmltypes appsampleAmr_qmltyperegistration
 
 
 #############################################
 # Utility command for all_aotstats
 
-build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appsampleAmr.aotstats .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_Main_qml.cpp .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats appsampleamr_qmltyperegistrations.cpp sampleAmr/appsampleAmr.qmltypes module_appsampleAmr_aotstats_target
+build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appsampleAmr.aotstats .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_Main_qml.cpp .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats appsampleamr_qmltyperegistrations.cpp sampleAmr/appsampleAmr.qmltypes module_appsampleAmr_aotstats_target
 
 
 #############################################
@@ -382,9 +390,18 @@ build .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp .rcc/qmlcache/appsampleAm
 
 
 #############################################
+# Custom command for .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp
+
+build .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.aotstats: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/libexec/qmlcachegen /home/texrobot/sampleAmr/CenterPanel.qml .qt/rcc/qmake_sampleAmr.qrc .qt/rcc/appsampleAmr_raw_qml_0.qrc sampleAmr/appsampleAmr.qmltypes sampleAmr/qmldir
+  COMMAND = cd /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug && /home/texrobot/Qt/Tools/CMake/bin/cmake -E make_directory /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache && /home/texrobot/Qt/6.10.1/gcc_64/libexec/qmlcachegen --bare --resource-path /qt/qml/sampleAmr/CenterPanel.qml -I /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug -I /home/texrobot/Qt/6.10.1/gcc_64/qml -i /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/sampleAmr/qmldir --resource /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qmake_sampleAmr.qrc --resource /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/appsampleAmr_raw_qml_0.qrc --dump-aot-stats "--module-id=sampleAmr(appsampleAmr)" -o /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp /home/texrobot/sampleAmr/CenterPanel.qml
+  DESC = Generating .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp, .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
 # Custom command for .qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp: CUSTOM_COMMAND /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml .qt/rcc/appsampleAmr_raw_qml_0.qrc /home/texrobot/Qt/6.10.1/gcc_64/libexec/rcc || appsampleAmr_autogen appsampleAmr_autogen_timestamp_deps appsampleAmr_copy_qml appsampleAmr_copy_res appsampleAmr_qmlimportscan generate_qmlls_build_ini_file
+build .qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp: CUSTOM_COMMAND /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml /home/texrobot/sampleAmr/CenterPanel.qml .qt/rcc/appsampleAmr_raw_qml_0.qrc /home/texrobot/Qt/6.10.1/gcc_64/libexec/rcc || appsampleAmr_autogen appsampleAmr_autogen_timestamp_deps appsampleAmr_copy_qml appsampleAmr_copy_res appsampleAmr_qmlimportscan generate_qmlls_build_ini_file
   COMMAND = cd /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug && /home/texrobot/Qt/6.10.1/gcc_64/libexec/rcc --output /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qrc_appsampleAmr_raw_qml_0.cpp --name appsampleAmr_raw_qml_0 /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/appsampleAmr_raw_qml_0.qrc
   DESC = Running rcc for resource appsampleAmr_raw_qml_0
   restat = 1
@@ -419,21 +436,21 @@ build CMakeFiles/appsampleAmr_qmltyperegistration | ${cmake_ninja_workdir}CMakeF
 #############################################
 # Custom command for CMakeFiles/appsampleAmr_qmllint
 
-build CMakeFiles/appsampleAmr_qmllint | ${cmake_ninja_workdir}CMakeFiles/appsampleAmr_qmllint: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml .rcc/qmllint/appsampleAmr.rsp || all_qmltyperegistrations appsampleAmr_qmltyperegistration
+build CMakeFiles/appsampleAmr_qmllint | ${cmake_ninja_workdir}CMakeFiles/appsampleAmr_qmllint: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml /home/texrobot/sampleAmr/CenterPanel.qml .rcc/qmllint/appsampleAmr.rsp || all_qmltyperegistrations appsampleAmr_qmltyperegistration
   COMMAND = cd /home/texrobot/sampleAmr && /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint @/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmllint/appsampleAmr.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appsampleAmr_qmllint_json
 
-build CMakeFiles/appsampleAmr_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appsampleAmr_qmllint_json: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml .rcc/qmllint/appsampleAmr_json.rsp || all_qmltyperegistrations appsampleAmr_qmltyperegistration
+build CMakeFiles/appsampleAmr_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appsampleAmr_qmllint_json: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml /home/texrobot/sampleAmr/CenterPanel.qml .rcc/qmllint/appsampleAmr_json.rsp || all_qmltyperegistrations appsampleAmr_qmltyperegistration
   COMMAND = cd /home/texrobot/sampleAmr && /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint @/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmllint/appsampleAmr_json.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appsampleAmr_qmllint_module
 
-build CMakeFiles/appsampleAmr_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appsampleAmr_qmllint_module: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml .rcc/qmllint/appsampleAmr_module.rsp || all_qmltyperegistrations appsampleAmr_qmltyperegistration
+build CMakeFiles/appsampleAmr_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appsampleAmr_qmllint_module: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml /home/texrobot/sampleAmr/CenterPanel.qml .rcc/qmllint/appsampleAmr_module.rsp || all_qmltyperegistrations appsampleAmr_qmltyperegistration
   COMMAND = cd /home/texrobot/sampleAmr && /home/texrobot/Qt/6.10.1/gcc_64/bin/qmllint @/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmllint/appsampleAmr_module.rsp
 
 
@@ -446,7 +463,7 @@ build CMakeFiles/appsampleAmr_copy_qml | ${cmake_ninja_workdir}CMakeFiles/appsam
 #############################################
 # Custom command for .qt/appsampleAmr_qml.txt
 
-build .qt/appsampleAmr_qml.txt | ${cmake_ninja_workdir}.qt/appsampleAmr_qml.txt: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml
+build .qt/appsampleAmr_qml.txt | ${cmake_ninja_workdir}.qt/appsampleAmr_qml.txt: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml /home/texrobot/sampleAmr/CenterPanel.qml
   COMMAND = cd /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug && /home/texrobot/Qt/Tools/CMake/bin/cmake -DFILES_INFO_PATH=/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/appsampleAmr_qml.cmake -P /home/texrobot/Qt/6.10.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
   DESC = Copying appsampleAmr qml sources into build dir
   restat = 1
@@ -491,7 +508,7 @@ build CMakeFiles/module_appsampleAmr_aotstats_target | ${cmake_ninja_workdir}CMa
 #############################################
 # Custom command for .rcc/qmlcache/module_appsampleAmr.aotstats
 
-build .rcc/qmlcache/module_appsampleAmr.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appsampleAmr.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats .rcc/qmlcache/module_appsampleAmr.aotstatslist || appsampleAmr_qmltyperegistration
+build .rcc/qmlcache/module_appsampleAmr.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appsampleAmr.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appsampleAmr_Main_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_LeftPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_RightPanel_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_VirtualKeypad_qml.cpp.aotstats .rcc/qmlcache/appsampleAmr_CenterPanel_qml.cpp.aotstats .rcc/qmlcache/module_appsampleAmr.aotstatslist || appsampleAmr_qmltyperegistration
   COMMAND = cd /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug && /home/texrobot/Qt/6.10.1/gcc_64/libexec/qmlaotstats aggregate /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/module_appsampleAmr.aotstatslist /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.rcc/qmlcache/module_appsampleAmr.aotstats
   DESC = Generating .rcc/qmlcache/module_appsampleAmr.aotstats
   restat = 1
@@ -522,7 +539,7 @@ build CMakeFiles/appsampleAmr_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/a
 #############################################
 # Custom command for .qt/qml_imports/appsampleAmr_build.cmake
 
-build .qt/qml_imports/appsampleAmr_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appsampleAmr_build.cmake: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_sampleAmr.qrc .qt/rcc/appsampleAmr_raw_qml_0.qrc /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml
+build .qt/qml_imports/appsampleAmr_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appsampleAmr_build.cmake: CUSTOM_COMMAND /home/texrobot/Qt/6.10.1/gcc_64/libexec/qmlimportscanner .qt/rcc/qmake_sampleAmr.qrc .qt/rcc/appsampleAmr_raw_qml_0.qrc /home/texrobot/sampleAmr/Main.qml /home/texrobot/sampleAmr/LeftPanel.qml /home/texrobot/sampleAmr/RightPanel.qml /home/texrobot/sampleAmr/VirtualKeypad.qml /home/texrobot/sampleAmr/CenterPanel.qml
   COMMAND = cd /home/texrobot/sampleAmr && /home/texrobot/Qt/6.10.1/gcc_64/libexec/qmlimportscanner @/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/qml_imports/appsampleAmr_build.rsp
   DESC = Running qmlimportscanner for appsampleAmr
   restat = 1

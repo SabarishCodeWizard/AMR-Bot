@@ -33,6 +33,13 @@ namespace _qt_qml_sampleAmr_VirtualKeypad_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_sampleAmr_CenterPanel_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -51,6 +58,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/sampleAmr/LeftPanel.qml"), &QmlCacheGeneratedCode::_qt_qml_sampleAmr_LeftPanel_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/sampleAmr/RightPanel.qml"), &QmlCacheGeneratedCode::_qt_qml_sampleAmr_RightPanel_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/sampleAmr/VirtualKeypad.qml"), &QmlCacheGeneratedCode::_qt_qml_sampleAmr_VirtualKeypad_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/sampleAmr/CenterPanel.qml"), &QmlCacheGeneratedCode::_qt_qml_sampleAmr_CenterPanel_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

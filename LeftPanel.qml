@@ -3,132 +3,107 @@ import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
 
 Rectangle {
-    id: leftPanel
-    color: appWindow.panelBg
-    radius: 4
-    border.color: appWindow.borderColor
-    border.width: 1
+    id: leftPanelRoot
 
-    // Property to link to coordinate system if needed (from your main.qml binding)
-    property var currentCoordinateSystem: null
+    // --- RECEIVE THEME FROM MAIN ---
+    property var theme
+
+    color: theme.panelBg
+    radius: 8
+    border.color: theme.borderColor
+    border.width: 1
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.margins: 16
-        spacing: 16
+        anchors.margins: 15
+        spacing: 20
 
-        // --- 1. Map / Visualization Area ---
-        Rectangle {
+        // --- DASHBOARD SECTION ---
+        ColumnLayout {
             Layout.fillWidth: true
-            Layout.fillHeight: true
-            color: appWindow.inputBg
-            radius: 4
-            border.color: appWindow.borderColor
-            border.width: 1
+            spacing: 10
 
-            Text {
-                anchors.centerIn: parent
-                text: "Map Visualization Area"
-                color: appWindow.textSec
-                font.family: appWindow.fontFamily
-                font.pixelSize: 16
+            Text { text: "DASHBOARD"; color: theme.textSec; font.bold: true; font.pixelSize: 12 }
+            Rectangle { Layout.fillWidth: true; height: 1; color: theme.borderColor }
+
+            Repeater {
+                model: ["Utilization Rate", "AMRs on Fleet", "Safety Metric", "Task Metric", "Battery Metric"]
+                delegate: RowLayout {
+                    Layout.fillWidth: true
+                    Text { text: modelData; color: theme.textMain; font.pixelSize: 13 }
+                    Item { Layout.fillWidth: true }
+                    Text { text: "--"; color: theme.primaryColor; font.bold: true }
+                }
             }
         }
 
-        // --- 2. Bottom Controls ---
-        RowLayout {
+        // --- ROBOT FLEET LIST ---
+        ColumnLayout {
             Layout.fillWidth: true
-            Layout.preferredHeight: 80
-            spacing: 20
+            Layout.fillHeight: true
+            spacing: 10
 
-            // Left Button Grid (Home, Mode, On/Off, Error)
-            GridLayout {
-                columns: 2
-                rowSpacing: 8
-                columnSpacing: 8
+            Text { text: "ROBOT FLEET"; color: theme.textSec; font.bold: true; font.pixelSize: 12 }
+            Rectangle { Layout.fillWidth: true; height: 1; color: theme.borderColor }
 
-                // Helper to create the standard green buttons from the screenshot
-                component ActionButton: Button {
-                    Layout.preferredWidth: 90
-                    Layout.preferredHeight: 35
-                    background: Rectangle {
-                        color: parent.down ? Qt.darker("#AED581", 1.2) : "#AED581" // Light Green
-                        radius: 4
-                    }
-                    contentItem: Text {
-                        text: parent.text
-                        color: "#1E1E2E"
-                        font.bold: true
-                        horizontalAlignment: Text.AlignHCenter
-                        verticalAlignment: Text.AlignVCenter
-                    }
+            ListView {
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                clip: true
+                spacing: 8
+                model: ListModel {
+                    ListElement { name: "ALPHA_001"; status: "AUTO"; battery: 95 }
+                    ListElement { name: "BETA_022"; status: "MANUAL"; battery: 65 }
+                    ListElement { name: "GAMMA_300"; status: "ERROR"; battery: 12 }
                 }
 
-                ActionButton { text: "Home" }
-                ActionButton {
-                    text: "Mode"
-                    // Logic to toggle RightPanel tabs could go here
-                }
-                ActionButton { text: "ON/OFF" }
-                ActionButton { text: "Error" }
-            }
+                delegate: Rectangle {
+                    width: parent.width
+                    height: 60
+                    color: theme.inputBg
+                    radius: 6
+                    border.color: theme.borderColor
 
-            // Spacer
-            Item { Layout.fillWidth: true }
+                    RowLayout {
+                        anchors.fill: parent
+                        anchors.margins: 10
 
-            // Right AMR Selection Group
-            RowLayout {
-                spacing: 10
+                        Rectangle {
+                            width: 40; height: 40; radius: 4
+                            color: theme.primaryColor
+                            Text { anchors.centerIn: parent; text: "Bot"; font.pixelSize: 10 }
+                        }
 
-                Rectangle {
-                    width: 60
-                    height: 35
-                    color: "#AED581" // Green label bg
-                    radius: 4
-                    Text {
-                        anchors.centerIn: parent
-                        text: "AMR"
-                        font.bold: true
-                        color: "#1E1E2E"
-                    }
-                }
-
-                ComboBox {
-                    Layout.preferredWidth: 140
-                    Layout.preferredHeight: 35
-                    model: ["AMR_01", "AMR_02", "AMR_03"]
-
-                    background: Rectangle {
-                        color: appWindow.inputBg
-                        border.color: appWindow.borderColor
-                        radius: 4
-                    }
-                    contentItem: Text {
-                        leftPadding: 10
-                        text: parent.displayText
-                        color: appWindow.textMain
-                        verticalAlignment: Text.AlignVCenter
-                    }
-                    popup: Popup {
-                        y: parent.height - 1
-                        width: parent.width
-                        padding: 1
-                        contentItem: ListView {
-                            clip: true
-                            implicitHeight: contentHeight
-                            model: parent.parent.popup.visible ? parent.parent.model : null
-                            delegate: ItemDelegate {
-                                width: parent.width
-                                text: modelData
-                                palette.text: appWindow.textMain
-                                background: Rectangle { color: hovered ? appWindow.hoverColor : appWindow.panelBg }
+                        ColumnLayout {
+                            spacing: 4
+                            Text { text: name; color: theme.textMain; font.bold: true }
+                            Row {
+                                spacing: 4
+                                Rectangle { width: 40; height: 4; color: "#333"; Rectangle { width: parent.width * (battery/100); height: parent.height; color: battery < 20 ? theme.dangerColor : theme.successColor } }
+                                Text { text: battery + "%"; color: theme.textSec; font.pixelSize: 10 }
                             }
                         }
-                        background: Rectangle {
-                            color: appWindow.panelBg
-                            border.color: appWindow.borderColor
-                        }
+                        Item { Layout.fillWidth: true }
+                        Text { text: status; color: status === "ERROR" ? theme.dangerColor : theme.textSec; font.pixelSize: 10; font.bold: true }
                     }
+                }
+            }
+        }
+
+        // --- VIEW CONTROL ---
+        ColumnLayout {
+            Layout.fillWidth: true
+            spacing: 10
+            Text { text: "VIEW CONTROL"; color: theme.textSec; font.bold: true; font.pixelSize: 12 }
+            Rectangle { Layout.fillWidth: true; height: 1; color: theme.borderColor }
+
+            Repeater {
+                model: ["Layer Toggles", "Camera Control", "Grid Settings"]
+                delegate: RowLayout {
+                    Layout.fillWidth: true
+                    Text { text: modelData; color: theme.textMain; font.pixelSize: 13 }
+                    Item { Layout.fillWidth: true }
+                    Switch { scale: 0.7; checked: true }
                 }
             }
         }

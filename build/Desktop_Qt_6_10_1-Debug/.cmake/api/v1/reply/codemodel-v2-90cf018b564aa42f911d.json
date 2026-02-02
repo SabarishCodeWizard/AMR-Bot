@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-bb472e5578ce21ba3b03.json",
+					"jsonFile" : "directory-.-Debug-246ccee91c6308067f88.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -72,7 +72,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_aotstats-Debug-287326e76fb8e239130c.json",
+					"jsonFile" : "target-all_aotstats-Debug-a237087a3ba45bb6cb3f.json",
 					"name" : "all_aotstats",
 					"projectIndex" : 0
 				},
@@ -107,7 +107,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appsampleAmr::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appsampleAmr-Debug-c6daee7116cf8bed70ee.json",
+					"jsonFile" : "target-appsampleAmr-Debug-d8449b199b67d3caa37e.json",
 					"name" : "appsampleAmr",
 					"projectIndex" : 0
 				},
@@ -184,7 +184,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "module_appsampleAmr_aotstats_target::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module_appsampleAmr_aotstats_target-Debug-d033bcc79718b816f848.json",
+					"jsonFile" : "target-module_appsampleAmr_aotstats_target-Debug-0a36b14886f25d119ead.json",
 					"name" : "module_appsampleAmr_aotstats_target",
 					"projectIndex" : 0
 				}
