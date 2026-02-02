@@ -1,0 +1,14 @@
+-rootPath
+/home/texrobot/sampleAmr
+-cmake-output
+-output-file
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/qml_imports/appsampleAmr_conf.cmake
+-importPath
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/sampleAmr
+-importPath
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug
+-importPath
+/home/texrobot/Qt/6.10.1/gcc_64/qml
+-qrcFiles
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qmake_sampleAmr.qrc
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/appsampleAmr_raw_qml_0.qrc

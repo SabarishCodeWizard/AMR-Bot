@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/sampleAmr">
+    <file alias="qmldir">/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/sampleAmr/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appsampleAmr_FILE /home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/appsampleAmr)
+set(__QT_DEPLOY_TARGET_appsampleAmr_TYPE EXECUTABLE)

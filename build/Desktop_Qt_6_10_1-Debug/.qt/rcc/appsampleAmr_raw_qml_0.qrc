@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/sampleAmr/">
+    <file alias="Main.qml">/home/texrobot/sampleAmr/Main.qml</file>
+    <file alias="LeftPanel.qml">/home/texrobot/sampleAmr/LeftPanel.qml</file>
+    <file alias="RightPanel.qml">/home/texrobot/sampleAmr/RightPanel.qml</file>
+    <file alias="VirtualKeypad.qml">/home/texrobot/sampleAmr/VirtualKeypad.qml</file>
+  </qresource>
+</RCC>
+

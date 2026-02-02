@@ -1,0 +1,9 @@
+module sampleAmr
+typeinfo appsampleAmr.qmltypes
+prefer :/qt/qml/sampleAmr/
+Main 254.0 Main.qml
+LeftPanel 254.0 LeftPanel.qml
+RightPanel 254.0 RightPanel.qml
+VirtualKeypad 254.0 VirtualKeypad.qml
+depends QtQuick
+

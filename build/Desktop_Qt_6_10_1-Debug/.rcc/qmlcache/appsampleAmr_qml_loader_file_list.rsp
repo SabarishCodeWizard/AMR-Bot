@@ -1,0 +1,8 @@
+--resource
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qmake_sampleAmr.qrc
+--resource
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/appsampleAmr_raw_qml_0.qrc
+/qt/qml/sampleAmr/Main.qml
+/qt/qml/sampleAmr/LeftPanel.qml
+/qt/qml/sampleAmr/RightPanel.qml
+/qt/qml/sampleAmr/VirtualKeypad.qml

@@ -1,0 +1,10 @@
+-I
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug
+-I
+/home/texrobot/Qt/6.10.1/gcc_64/qml
+--resource
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qmake_sampleAmr.qrc
+--resource
+/home/texrobot/sampleAmr/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/appsampleAmr_raw_qml_0.qrc
+--module
+sampleAmr
