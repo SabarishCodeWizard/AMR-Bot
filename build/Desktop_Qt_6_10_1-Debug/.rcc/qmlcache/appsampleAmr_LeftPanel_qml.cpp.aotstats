@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 32,
                             "functionName": "color",
                             "line": 11,
                             "message": "Cannot load property panelBg from (component in /home/texrobot/sampleAmr/LeftPanel.qml)::theme with type QVariant."
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 11,
+                            "durationMicroseconds": 8,
                             "functionName": "color",
                             "line": 13,
                             "message": "Cannot load property borderColor from (component in /home/texrobot/sampleAmr/LeftPanel.qml)::theme with type QVariant."
@@ -24,234 +24,378 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 65,
                             "functionName": "fill",
                             "line": 17,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 46,
-                            "durationMicroseconds": 39,
+                            "column": 58,
+                            "durationMicroseconds": 22,
                             "functionName": "color",
-                            "line": 26,
+                            "line": 34,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 67,
-                            "durationMicroseconds": 21,
+                            "column": 28,
+                            "durationMicroseconds": 14,
                             "functionName": "color",
-                            "line": 27,
+                            "line": 37,
                             "message": "Cannot access value for name theme"
                         },
                         {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 27,
+                            "functionName": "fill",
+                            "line": 49,
+                            "message": ""
+                        },
+                        {
                             "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 186,
+                            "column": 32,
+                            "durationMicroseconds": 68,
                             "functionName": "model",
-                            "line": 30,
-                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                            "line": 54,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 24,
+                            "functionName": "fill",
+                            "line": 65,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 194,
+                            "column": 43,
+                            "durationMicroseconds": 136,
                             "functionName": "text",
-                            "line": 33,
+                            "line": 67,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 52,
-                            "durationMicroseconds": 24,
+                            "column": 44,
+                            "durationMicroseconds": 68,
                             "functionName": "color",
-                            "line": 33,
+                            "line": 68,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 47,
-                            "durationMicroseconds": 23,
+                            "column": 43,
+                            "durationMicroseconds": 121,
+                            "functionName": "text",
+                            "line": 73,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 110,
                             "functionName": "color",
-                            "line": 35,
+                            "line": 74,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 44,
+                            "functionName": "width",
+                            "line": 80,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 15,
+                            "functionName": "color",
+                            "line": 82,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 48,
-                            "durationMicroseconds": 20,
+                            "column": 42,
+                            "durationMicroseconds": 65,
+                            "functionName": "visible",
+                            "line": 83,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 49,
+                            "durationMicroseconds": 46,
+                            "functionName": "bottom",
+                            "line": 81,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 58,
+                            "durationMicroseconds": 14,
                             "functionName": "color",
-                            "line": 46,
+                            "line": 104,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 67,
-                            "durationMicroseconds": 20,
+                            "column": 28,
+                            "durationMicroseconds": 13,
                             "functionName": "color",
-                            "line": 47,
+                            "line": 107,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 13,
+                            "functionName": "color",
+                            "line": 111,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 32,
                             "functionName": "width",
-                            "line": 61,
+                            "line": 128,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 21,
+                            "durationMicroseconds": 13,
                             "functionName": "color",
-                            "line": 63,
+                            "line": 130,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 18,
+                            "durationMicroseconds": 11,
                             "functionName": "color",
-                            "line": 65,
+                            "line": 132,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 24,
                             "functionName": "fill",
-                            "line": 68,
+                            "line": 136,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 24,
+                            "durationMicroseconds": 56,
                             "functionName": "color",
-                            "line": 73,
+                            "line": 143,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 144,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 68,
+                            "durationMicroseconds": 101,
+                            "functionName": "text",
+                            "line": 145,
+                            "message": "Cannot access value for name type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 96,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 145,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 0,
                             "column": 54,
-                            "durationMicroseconds": 40,
-                            "functionName": "centerIn",
-                            "line": 74,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 42,
-                            "durationMicroseconds": 160,
-                            "functionName": "text",
-                            "line": 79,
-                            "message": "Cannot access value for name name"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 55,
                             "durationMicroseconds": 27,
-                            "functionName": "color",
-                            "line": 79,
-                            "message": "Cannot access value for name theme"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 101,
-                            "durationMicroseconds": 129,
-                            "functionName": "width",
-                            "line": 82,
-                            "message": "Cannot access value for name battery"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 139,
-                            "durationMicroseconds": 67,
-                            "functionName": "height",
-                            "line": 82,
+                            "functionName": "centerIn",
+                            "line": 145,
                             "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 161,
-                            "durationMicroseconds": 176,
-                            "functionName": "color",
-                            "line": 82,
-                            "message": "Cannot access value for name battery"
                         },
                         {
                             "codegenResult": 2,
                             "column": 46,
-                            "durationMicroseconds": 170,
+                            "durationMicroseconds": 92,
                             "functionName": "text",
-                            "line": 83,
+                            "line": 153,
+                            "message": "Cannot access value for name name"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 59,
+                            "durationMicroseconds": 16,
+                            "functionName": "color",
+                            "line": 153,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 95,
+                            "functionName": "text",
+                            "line": 155,
+                            "message": "Cannot access value for name status"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 97,
+                            "durationMicroseconds": 137,
+                            "functionName": "color",
+                            "line": 155,
+                            "message": "Cannot access value for name status"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 79,
+                            "functionName": "width",
+                            "line": 161,
+                            "message": "Cannot access value for name battery"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 90,
+                            "durationMicroseconds": 39,
+                            "functionName": "height",
+                            "line": 161,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 123,
+                            "durationMicroseconds": 102,
+                            "functionName": "color",
+                            "line": 161,
                             "message": "Cannot access value for name battery"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 68,
-                            "durationMicroseconds": 31,
+                            "column": 58,
+                            "durationMicroseconds": 14,
                             "functionName": "color",
-                            "line": 83,
+                            "line": 182,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 164,
-                            "functionName": "text",
-                            "line": 87,
-                            "message": "Cannot access value for name status"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 53,
-                            "durationMicroseconds": 213,
+                            "column": 28,
+                            "durationMicroseconds": 13,
                             "functionName": "color",
-                            "line": 87,
-                            "message": "Cannot access value for name status"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 49,
-                            "durationMicroseconds": 23,
-                            "functionName": "color",
-                            "line": 97,
-                            "message": "Cannot access value for name theme"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 67,
-                            "durationMicroseconds": 20,
-                            "functionName": "color",
-                            "line": 98,
+                            "line": 185,
                             "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 128,
-                            "functionName": "model",
-                            "line": 101,
-                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                            "durationMicroseconds": 11,
+                            "functionName": "color",
+                            "line": 194,
+                            "message": "Cannot access value for name theme"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 189,
+                            "column": 31,
+                            "durationMicroseconds": 11,
+                            "functionName": "color",
+                            "line": 196,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 27,
+                            "functionName": "fill",
+                            "line": 199,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 93,
+                            "functionName": "model",
+                            "line": 205,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 24,
+                            "functionName": "fill",
+                            "line": 211,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 119,
                             "functionName": "text",
-                            "line": 104,
+                            "line": 212,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 52,
-                            "durationMicroseconds": 25,
+                            "column": 64,
+                            "durationMicroseconds": 15,
                             "functionName": "color",
-                            "line": 104,
+                            "line": 212,
                             "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "checked",
+                            "line": 214,
+                            "message": "Could not find property \"checked\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 33,
+                            "functionName": "width",
+                            "line": 218,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 14,
+                            "functionName": "color",
+                            "line": 220,
+                            "message": "Cannot access value for name theme"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 59,
+                            "functionName": "visible",
+                            "line": 221,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 49,
+                            "durationMicroseconds": 43,
+                            "functionName": "bottom",
+                            "line": 219,
+                            "message": ""
                         }
                     ],
                     "filePath": "/home/texrobot/sampleAmr/LeftPanel.qml"

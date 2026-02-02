@@ -38,12 +38,6 @@ Rectangle {
 
             Text { anchors.centerIn: parent; text: "3D SIMULATION VIEW"; color: "#444"; font.pointSize: 20; font.bold: true }
 
-            // Robot Placeholder
-            Rectangle {
-                width: 60; height: 80; color: theme.primaryColor; radius: 4
-                x: parent.width/2 - 30; y: parent.height/2 + 50
-                border.color: "white"; border.width: 2
-            }
         }
 
         // --- BOTTOM AMR CONTROLS ---
